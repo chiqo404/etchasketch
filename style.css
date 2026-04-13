@@ -1,0 +1,22 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+.square{
+    box-sizing:border-box;
+    border:1px solid black;
+    aspect-ratio:1/1;
+    width:calc(100%/16);
+    height: auto;
+}
+#container{
+    display:flex;
+    flex-wrap:wrap;
+    width:700px;
+    height: auto;
+    border:4px solid black;
+    /* width:50%;
+    height:50%; */
+}
